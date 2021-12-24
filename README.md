@@ -43,7 +43,7 @@ With **Envlib**, you do this:
     RETURN
 
 
-Note you don't need to cover every exit point because when `lcPath` goes out of lexical scope, `SET PATH` is reset upon its destroy.
+Note you don't need to cover every exit point because when `loAlias` goes out of lexical scope, `SET PATH` is reset upon its destroy.
 
 
 ## Example -- saving the current work area
